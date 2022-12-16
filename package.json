@@ -1,0 +1,29 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tochandan/Project_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tochandan/Project_1/issues"
+  },
+  "homepage": "https://github.com/Tochandan/Project_1#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "swagger": "^0.0.1",
+    "swagger-ui-express": "^4.6.0",
+    "yamljs": "^0.3.0"
+  }
+}
