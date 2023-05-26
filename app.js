@@ -11,5 +11,5 @@ app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocuments));
 
 const port = process.env.PORT;
 
-app.get('/', (req, res) => res.send('Hello World! from dev'))
+app.get('/', (req, res) => res.send('Hello from dev site under development'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
