@@ -1,2 +1,5 @@
 # Project_1
-node js
+setup
+    npm i
+    env
+
